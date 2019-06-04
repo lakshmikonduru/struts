@@ -29,9 +29,9 @@ limitations under the License.
 </head>
 <body>
 <div id='page'>
-    <div id='header'><a href="addUserForm.action">Add User</a>
-        | <a href="findUserForm.action">Find User</a>
-        | <a href="listAllUsers.action">List all users</a></div>
+    <div id='header'><a href="addUserForm">Add User</a>
+        | <a href="findUserForm">Find User</a>
+        | <a href="listAllUsers">List all users</a></div>
     <div id='content'>
         <p style="color: red"><s:property value="errorMessage"/></p>
         <decorator:body/>

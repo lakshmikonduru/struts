@@ -27,7 +27,7 @@
       <result>/index.jsp</result>
     </action>
     <action name="addUserForm" class="org.superbiz.struts.AddUserForm">
-      <result>/addUserForm.jsp</result>
+      <result name="success">/addUserForm.jsp</result>
     </action>
     <action name="addUser" class="org.superbiz.struts.AddUser">
       <result name="success">/addedUser.jsp</result>
